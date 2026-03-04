@@ -48,11 +48,13 @@ Git    > Local
 cd file_name: change directory
 ls : list the files of the directory
 ls -a : list all the files of the directory even hidden once.
+mkdir : create new folder/directory
 
 untracked : New file added to the repo
 modified  : file was changed
 staged    : file ready to commit
 unmodified: unchanged
+
 
 Basic Commands
     > git clone
@@ -82,3 +84,20 @@ Basic Commands
     > git restore .
         restores all the file.
 
+
+
+
+============= Now we will learn to Create a remote repo from local
+
+Get inside the desired repo
+    > ls -a 
+        - shows all the hidden file. 
+        - *Remember the git initialized file will have ".git/" hidden folder contains
+        - .git/ is the folder that git uses to helps you in tracking the git repo 
+        - after init you can use this to test wether the repo is initialized or not
+    > git init
+        - It will give similar prompt like this (Initialized empty Git repository in C:/Users/Shayan/Desktop/Learning git/Local-repo/.git/)
+        - Your local repo has has initialized the remote repo.
+        - i.e remote repo has been created
+    > 
+    
