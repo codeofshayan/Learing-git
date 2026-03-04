@@ -129,3 +129,25 @@ Get inside the desired repo
     > git pull origin main
         - If some modification is made on the remote side.
         - By doing this you are updating you local repo by fetching latest pull from the origin itself.
+
+
+
+
+
+
+
+
+========================   BRANCH Commands
+
+    > git branch
+        - to check the branch
+    > git branch -M <-new-branch-name->
+        - to rename the existing branch name into the desired name
+    > git checkout <-branch-name->
+        - to navigate
+        - to move from one branch to another
+    > git checkout -b <-new-branch-name->
+        - to create new branch
+    > git branch -d <-branch-name->
+        - ti delete the existing branch
+
