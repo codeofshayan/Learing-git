@@ -64,6 +64,8 @@ Basic Commands
         adds new or changed file in your working directory to Git staging area
         we can add individual files either by name.
         for multiple we simply say : git add .
+    > git add .
+        adds all the new changes to the staging area.
     > git commit -m "some message"
         It is a record of change.
     > git push origin main
@@ -75,4 +77,8 @@ Basic Commands
         pulls the latest remote repo content to your local repo
         i.e. if someone else had made any changes and you just write this command.
         all the new files and modification will be updated to your local
+    > git restore <-file_name->
+        restore the repo to the previous version, from where you have started change for this file.
+    > git restore .
+        restores all the file.
 
