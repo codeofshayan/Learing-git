@@ -1,0 +1,78 @@
+Youtube : https://www.youtube.com/watch?v=Ez8F0nW6S-w
+
+Git
+    - Is a version control system (To track the progress of the system/application).
+    - Best to TRACK the history of the application and COLLABORATE.
+    - It is popular, Free and scalable.
+
+Github
+    - Git is tool that we use in our computer locally.
+    - Github is the website the allows the developer to store and manage their code using Git.
+
+Folder of code uploaded on Github using Git > Repository (repos)
+
+We can create a repo using the Github UI.
+Changes are called as commit.
+
+Github is on website. Git is used locally on our system and synced with respective repo on Github.
+
+Windows user
+    - Install VS code.
+    - Install GitBash.
+    - To test git bash installation : git --version
+    - url for GitBash : https://git-scm.com/install/windows
+
+While downloading GitBash
+    - Download from above url
+    - Select > Override the default option name for new Repository to MAIN.
+    - Select > Choose github and optional unix tools.
+    - Then rest at default and install.
+
+Configure the Git
+    - Once the Git is installed we need to configure the Git.
+    - Configuring simply means we are informing the git that in which account we are making changes.
+    - i.e. Whenever we use the git to make changes on the github which email should be associated with this which name should be tracked and so on.
+
+Code to configure
+    > git config --global user.name "usernameOfYourChoice"
+    > git config --global user.email "email@google.com"
+
+To check using git config what settup we have created.
+    > git config --list
+    - This will show the credentials of our git including our username and email.
+
+
+GitHub > Remote
+Git    > Local
+
+cd file_name: change directory
+ls : list the files of the directory
+ls -a : list all the files of the directory even hidden once.
+
+untracked : New file added to the repo
+modified  : file was changed
+staged    : file ready to commit
+unmodified: unchanged
+
+Basic Commands
+    > git clone
+        used for cloning the repository on our local machine.
+        clone the repo using this command in terminal and use cd repo name to get inside it. 
+    > git status
+        displays the status of the code
+    > git add <-file_name->
+        adds new or changed file in your working directory to Git staging area
+        we can add individual files either by name.
+        for multiple we simply say : git add .
+    > git commit -m "some message"
+        It is a record of change.
+    > git push origin main
+        push uploads the local repo content to the remote repo
+        git push : pushing the repo
+        origin   : (from where we have cloned)we are calling our remote repo as origin
+        main     : it is our branch
+    > git pull origin main
+        pulls the latest remote repo content to your local repo
+        i.e. if someone else had made any changes and you just write this command.
+        all the new files and modification will be updated to your local
+
