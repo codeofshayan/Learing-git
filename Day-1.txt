@@ -155,4 +155,10 @@ Get inside the desired repo
         - file goes to staging once we write > git add .
 
 
+
 "This line of code is written usgin feature1 branch".
+
+In a scenario where you have create a branch feature1.
+> Then, after going to the branch whatever changes you make and commit are stored only on feature1 branch.
+> Incase IF, you switched to the main branch all the changes made using feature1 will also go.
+> You will only see the changes made on feature1 once you go back to the branch feature1.
