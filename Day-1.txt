@@ -186,3 +186,6 @@ way-1
 way-2
     pull request (PR)
 
+- Once you merged the feature branch to main branch using the PR.
+- You will still see that the content is not available in the main branch it is only available in the feature branch
+- To see the latest changes "git pull origin main" ***.
