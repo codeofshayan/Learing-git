@@ -196,4 +196,4 @@ way-2
 ============= Learning merge conflict
 
 This is the Home
-This is main feature | feature1
+This is main feature | feature1 | (button)
