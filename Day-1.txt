@@ -165,7 +165,24 @@ They create there seperate branch for seperate feature.
         - to create new branch
     > git branch -d <-branch-name->
         - ti delete the existing branch
+    > git restore --staged <file>
+        - use "git restore --staged <file>..." to unstage
+        - file goes to staging once we write > git add .
 
 
 
+
+way-1
+    > git diff <-branch name->
+        - To compare the commit, branches, files and more
+        - branch name will be the main, As you will have to compare it with the original/previous version of repo.
+        - git diff main
+        - you can exit with q, :q
+    > git merge <-branch name->
+        - this allows you to merge the branch.
+        - git merge main : will merge the feature1 branch content to the main
+
+
+way-2
+    pull request (PR)
 
