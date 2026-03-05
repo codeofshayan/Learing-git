@@ -150,4 +150,9 @@ Get inside the desired repo
         - to create new branch
     > git branch -d <-branch-name->
         - ti delete the existing branch
+    > git restore --staged <file>
+        - use "git restore --staged <file>..." to unstage
+        - file goes to staging once we write > git add .
 
+
+"This line of code is written usgin feature1 branch".
