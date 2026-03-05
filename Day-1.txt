@@ -133,14 +133,29 @@ Get inside the desired repo
 
 
 
+=================================   GitHub WorkFlow
+
+
+GitHub > clone > changes > add > commit > push 
+
+1. Create repo using the UI : Create a repo on GitHub
+2. git clone <-url->        : Clone the repo to you local
+3. changes or new files/folder : Make the desired changes and modification
+4. git add .                : add the file to the repo
+6. git commit -m "<-decription->" : commit the changes you made
+7. git push origin main     : Push the changed to origin
+
+
 
 
 
 
 ========================   BRANCH Commands
+When there are multiple developer associated with 1 repo.
+They create there seperate branch for seperate feature.
 
     > git branch
-        - to check the branch
+        - to check the current branch
     > git branch -M <-new-branch-name->
         - to rename the existing branch name into the desired name
     > git checkout <-branch-name->
@@ -150,4 +165,7 @@ Get inside the desired repo
         - to create new branch
     > git branch -d <-branch-name->
         - ti delete the existing branch
+
+
+
 
