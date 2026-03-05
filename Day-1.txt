@@ -197,3 +197,4 @@ way-2
 
 This is the Home
 This is main feature | feature1 | (dropdown)
+This is main feature | feature1 | (button)
